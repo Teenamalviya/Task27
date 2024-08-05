@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 driver = None
-driver_path = ("C:\z.selenium drivers\chromedriver-win64\chromedriver.exe")
+driver_path = ("C:\\chromedriver.exe")
 orange_url = ("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
 @pytest.fixture(scope="class")
